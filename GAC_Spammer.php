@@ -23,7 +23,7 @@ while (true) {
 		case 200:
 			echo date("[H:i:s]")." OTP Requested.\n";
 			if (function_exists("cli_set_process_title")) cli_set_process_title("GAC Spammer - ".++$i." Hits");
-			sleep(30);
+			sleep(1);
 			break;
 		default:
 			echo date("[H:i:s]")." Unusual Response, Retrying...\n";
